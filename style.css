@@ -1,0 +1,109 @@
+.titulo{
+    color: rgb(21, 161, 68);
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+}
+.titulo-inicio{
+    font-size: 60px;
+    padding: 5px;
+}
+.navegador{
+    background-color: rgb(34, 139, 34);
+    width: 100%;
+    height: 150px;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+}
+.navlink{
+    display: flex;
+    padding: 20px 5px;
+    text-align: right;
+}
+.navlinka{
+    display: block;
+   
+    padding: 20px 5px;
+    text-align: right;
+}
+.navegador img{
+    width: 50px;
+    height: 50px;
+}
+.vegan{
+    width: 100%;
+}
+.Justicia{
+    text-align: center;
+}
+.foot{
+    list-style: none;
+}
+.santuario{
+    width: 50%;
+    height: 30%;
+}
+.somos{
+    width: 200px;
+    border: 2px;
+    border-color: darkgreen;
+    border-style: groove;
+    padding: 10px;
+    background-color:rgb(21, 161, 68)
+}
+.aboutus{
+    width: 50%;
+    border: 1px;
+    border-color: forestgreen;
+    border-style: groove;
+    background-color:rgb(21, 161, 68) ;
+}
+.donaciones{
+    width: 200px;
+    position: relative;
+    background-color: rgb(21, 161, 68);
+    display: flex;
+    flex-direction: column;
+    
+}
+.donar{
+    background-color: rgb(51, 66, 61);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+}
+.portada{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.paquetes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.paquete{
+    width: 300px;
+    background-color: rgb(80, 230, 87);
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.paquete-boton{
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+}
+.form-reserva{
+    margin-bottom: 500px;
+}
