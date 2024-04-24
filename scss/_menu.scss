@@ -45,6 +45,9 @@
     flex-direction: column;
     background-color:rgb(21, 161, 68)
 }
+.icono-menu{
+    display: none;
+}
 /*Menu*/
 @media (max-width: 768px){
     .menu{
@@ -89,7 +92,6 @@
         align-items: center;
         z-index: 2;
         transition: 0.4s;
-    
     }
     .icono-menu{
         display: block;

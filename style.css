@@ -347,6 +347,10 @@
   background-color: rgb(21, 161, 68);
 }
 
+.icono-menu {
+  display: none;
+}
+
 /*Menu*/
 @media (max-width: 768px) {
   .menu {
@@ -476,10 +480,6 @@
 .titulo-inicio {
   font-size: 60px;
   padding: 5px;
-}
-
-.icono-menu {
-  display: none;
 }
 
 .Justicia {
