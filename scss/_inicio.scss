@@ -1,0 +1,161 @@
+/*Nosotros*/
+.porques{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.porque{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(21, 161, 68);
+    font-size: larger;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/*Nosotros*/
+.santuario{
+    width: 100%;
+    height: 30%;
+}
+.somos{
+    width: 200px;
+    border: 2px;
+    border-color: darkgreen;
+    border-style: groove;
+    padding: 10px;
+    background-color:rgb(21, 161, 68)
+}
+.aboutus{
+    width: 100%;
+    border: 1px;
+    border-color: forestgreen;
+    text-decoration: underline;
+    text-align: center;
+    border-style: groove;
+    background-color:rgb(21, 161, 68) ;
+}
+/*Nosotros*/
+.animales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.health{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ambiente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ternero{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    height: fit-content; 
+    justify-content: right;
+}
+.medioamb{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    height: fit-content; 
+    justify-content: right;
+}
+.salud{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    height: fit-content; 
+    justify-content: right;
+}
+.why{
+    text-align: center;
+    font-size: xx-large;
+}
+/*Nosotrosquery*/
+@media(max-width:1000px){
+    .aboutus{
+        width: 100vw;
+    }
+    .santuario{
+        width: 100vw;
+    }
+    .porques{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .porque{
+        width: 100vw;
+        max-width: 1000px;
+        height: 300px;
+        background-color: rgb(21, 161, 68);
+        word-wrap: break-word;
+        margin: 5px;
+        padding: 5px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .animales{
+        width: 100vw;
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .health{
+        width: 100vw;
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ambiente{
+        width: 100vw;
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ternero{
+        width: 100vw;
+        max-width: 1000px;
+        padding: 5px;
+        margin: 5px;
+        height: fit-content; 
+        justify-content: right;
+        flex-direction: column;
+    }
+    .medioamb{
+        width: 100vw;
+        max-width: 1000px;
+        padding: 5px;
+        margin: 5px;
+        height: fit-content; 
+        justify-content: right;
+        flex-direction: column;
+    }
+    .salud{
+        width: 100vw;
+        max-width: 1000px;
+        padding: 5px;
+        margin: 5px;
+        height: fit-content; 
+        justify-content: right;
+    }
+    
+}

@@ -1,0 +1,49 @@
+/*Navegador-Portada*/
+.navegador{
+    background-color: rgb(21, 161, 68);
+    width: 100%;
+    height: 150px;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+}
+.navlink{
+    display: flex;
+    padding: 20px 5px;
+    text-align: right;
+}
+.navlinka{
+    display: block;
+    padding: 20px 5px;
+    text-align: right;
+}
+.navegador img{
+    width: 50px;
+    height: 50px;
+}
+.portada{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+@media(max-width:768px){
+    .navegador{
+        width: 100vw;
+    }
+    .portada{
+        width: 100vw;
+    }
+}
+/*Titulo*/
+@media(max-width: 768px){
+    .titulo{
+        text-align: left;
+        
+    }
+    .Justicia{
+        text-align: left;
+        
+    }
+}

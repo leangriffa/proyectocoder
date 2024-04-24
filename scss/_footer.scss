@@ -1,0 +1,44 @@
+/*Foot*/
+.foot{
+    list-style: none;
+    bottom: 0;
+    text-align: end;
+}
+.donaciones{
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.donar{
+    background-color: rgb(51, 66, 61);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+    
+}
+/*Footer*/
+@media(max-width:768px){
+    .footer{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: start;
+    }
+}

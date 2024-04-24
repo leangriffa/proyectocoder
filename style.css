@@ -1,0 +1,487 @@
+/*Contacto*/
+.galeria {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 150px);
+  grid-template-areas: "img1 img1 img2 img2 img3" "img1 img1 img2 img2 img3" "img4 img4 img5 img5 img5" "img4 img4 img5 img5 img5" "img6 img6 img6 img7 img7" "img6 img6 img6 img7 img7";
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img3;
+}
+
+.img3 {
+  grid-area: img2;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img7 {
+  grid-area: img7;
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*Contacto*/
+.paquetes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.paquete {
+  width: 300px;
+  background-color: rgb(21, 161, 68);
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.paquete-boton {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+}
+
+.form-reserva {
+  margin-bottom: 100px;
+}
+
+/*Foot*/
+.foot {
+  list-style: none;
+  bottom: 0;
+  text-align: end;
+}
+
+.donaciones {
+  width: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.donar {
+  background-color: rgb(51, 66, 61);
+  color: white;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-top: 10px;
+}
+
+/*Footer*/
+@media (max-width: 768px) {
+  .footer {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+/*Nosotros*/
+.porques {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.porque {
+  width: 50%;
+  height: 300px;
+  background-color: rgb(21, 161, 68);
+  font-size: larger;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*Nosotros*/
+.santuario {
+  width: 100%;
+  height: 30%;
+}
+
+.somos {
+  width: 200px;
+  border: 2px;
+  border-color: darkgreen;
+  border-style: groove;
+  padding: 10px;
+  background-color: rgb(21, 161, 68);
+}
+
+.aboutus {
+  width: 100%;
+  border: 1px;
+  border-color: forestgreen;
+  text-decoration: underline;
+  text-align: center;
+  border-style: groove;
+  background-color: rgb(21, 161, 68);
+}
+
+/*Nosotros*/
+.animales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.health {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ambiente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ternero {
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: right;
+}
+
+.medioamb {
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: right;
+}
+
+.salud {
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: right;
+}
+
+.why {
+  text-align: center;
+  font-size: xx-large;
+}
+
+/*Nosotrosquery*/
+@media (max-width: 1000px) {
+  .aboutus {
+    width: 100vw;
+  }
+  .santuario {
+    width: 100vw;
+  }
+  .porques {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .porque {
+    width: 100vw;
+    max-width: 1000px;
+    height: 300px;
+    background-color: rgb(21, 161, 68);
+    word-wrap: break-word;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .animales {
+    width: 100vw;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .health {
+    width: 100vw;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ambiente {
+    width: 100vw;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ternero {
+    width: 100vw;
+    max-width: 1000px;
+    padding: 5px;
+    margin: 5px;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: right;
+    flex-direction: column;
+  }
+  .medioamb {
+    width: 100vw;
+    max-width: 1000px;
+    padding: 5px;
+    margin: 5px;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: right;
+    flex-direction: column;
+  }
+  .salud {
+    width: 100vw;
+    max-width: 1000px;
+    padding: 5px;
+    margin: 5px;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: right;
+  }
+}
+/*Menu*/
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+.menu1 {
+  width: 50%;
+  border: 1px;
+  border-color: forestgreen;
+  border-style: groove;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 161, 68);
+}
+
+.menu2 {
+  width: 50%;
+  border: 1px;
+  border-color: forestgreen;
+  border-style: groove;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 161, 68);
+}
+
+.menu3 {
+  width: 50%;
+  border: 1px;
+  border-color: forestgreen;
+  border-style: groove;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 161, 68);
+}
+
+.menu4 {
+  width: 50%;
+  border: 1px;
+  border-color: forestgreen;
+  border-style: groove;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 161, 68);
+}
+
+/*Menu*/
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+  .menu1 {
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    left: 0;
+    list-style-type: none;
+  }
+  .menu2 {
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    left: 0;
+    list-style-type: none;
+  }
+  .menu3 {
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    left: 0;
+    list-style-type: none;
+  }
+  .menu4 {
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    left: 0;
+    list-style-type: none;
+  }
+  .header {
+    position: relative;
+  }
+  .navlink {
+    position: absolute;
+    background-color: rgb(209, 209, 209);
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    right: -100vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    z-index: 2;
+    transition: 0.4s;
+  }
+  .icono-menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: black;
+    font-size: 30px;
+    z-index: 1;
+  }
+  .icono-menu:hover + .navlink {
+    right: 0;
+  }
+  .navlink:hover {
+    right: 0;
+  }
+}
+/*Navegador-Portada*/
+.navegador {
+  background-color: rgb(21, 161, 68);
+  width: 100%;
+  height: 150px;
+  font-size: 30px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.navlink {
+  display: flex;
+  padding: 20px 5px;
+  text-align: right;
+}
+
+.navlinka {
+  display: block;
+  padding: 20px 5px;
+  text-align: right;
+}
+
+.navegador img {
+  width: 50px;
+  height: 50px;
+}
+
+.portada {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .navegador {
+    width: 100vw;
+  }
+  .portada {
+    width: 100vw;
+  }
+}
+/*Titulo*/
+@media (max-width: 768px) {
+  .titulo {
+    text-align: left;
+  }
+  .Justicia {
+    text-align: left;
+  }
+}
+/*Titulos*/
+.titulo {
+  color: rgb(21, 161, 68);
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.titulo-inicio {
+  font-size: 60px;
+  padding: 5px;
+}
+
+.icono-menu {
+  display: none;
+}
+
+.Justicia {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
