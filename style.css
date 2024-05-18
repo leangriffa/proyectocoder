@@ -53,6 +53,7 @@
 
 .paquete {
   width: 300px;
+  border-radius: 25px;
   background-color: rgb(21, 161, 68);
   margin: 10px;
   padding: 20px;
@@ -60,6 +61,10 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  transition: 0.4s;
+}
+.paquete:hover {
+  transform: scale(1.2);
 }
 
 .paquete-boton {
@@ -72,6 +77,11 @@
   margin-bottom: 100px;
 }
 
+@media (max-width: 1000px) {
+  .paquete {
+    pointer-events: none;
+  }
+}
 /*Foot*/
 .foot {
   list-style: none;
@@ -102,12 +112,12 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: darkgrey;
+  background-color: rgb(138, 192, 122);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 /*Footer*/
@@ -137,6 +147,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  transition: 0.4s;
+}
+.porque:hover {
+  transform: scale(1);
+  transform: translate(60px, 0px);
 }
 
 /*Nosotros*/
@@ -160,7 +175,7 @@
   border-color: forestgreen;
   text-decoration: underline;
   text-align: center;
-  border-style: groove;
+  border-radius: 25px;
   background-color: rgb(21, 161, 68);
 }
 
@@ -169,18 +184,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .health {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .ambiente {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .ternero {
@@ -190,6 +208,7 @@
   height: -moz-fit-content;
   height: fit-content;
   justify-content: right;
+  border-radius: 25px;
 }
 
 .medioamb {
@@ -199,6 +218,7 @@
   height: -moz-fit-content;
   height: fit-content;
   justify-content: right;
+  border-radius: 25px;
 }
 
 .salud {
@@ -208,6 +228,7 @@
   height: -moz-fit-content;
   height: fit-content;
   justify-content: right;
+  border-radius: 25px;
 }
 
 .why {
@@ -249,6 +270,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    pointer-events: none;
   }
   .health {
     width: 100vw;
@@ -257,6 +279,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    pointer-events: none;
   }
   .ambiente {
     width: 100vw;
@@ -265,6 +288,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    pointer-events: none;
   }
   .ternero {
     width: 100vw;
@@ -300,7 +324,7 @@
 .menu {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: left;
+  justify-content: space-around;
 }
 
 .menu1 {
@@ -308,9 +332,11 @@
   border: 1px;
   border-color: forestgreen;
   border-style: groove;
+  border-radius: 25px;
   position: relative;
   display: flex;
   flex-direction: column;
+  margin: 30px;
   background-color: rgb(21, 161, 68);
 }
 
@@ -319,9 +345,11 @@
   border: 1px;
   border-color: forestgreen;
   border-style: groove;
+  border-radius: 25px;
   position: relative;
   display: flex;
   flex-direction: column;
+  margin: 30px;
   background-color: rgb(21, 161, 68);
 }
 
@@ -330,9 +358,11 @@
   border: 1px;
   border-color: forestgreen;
   border-style: groove;
+  border-radius: 25px;
   position: relative;
   display: flex;
   flex-direction: column;
+  margin: 30px;
   background-color: rgb(21, 161, 68);
 }
 
@@ -341,14 +371,23 @@
   border: 1px;
   border-color: forestgreen;
   border-style: groove;
+  border-radius: 25px;
   position: relative;
   display: flex;
   flex-direction: column;
+  margin: 30px;
   background-color: rgb(21, 161, 68);
 }
 
 .icono-menu {
   display: none;
+}
+
+.coffeeshop {
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  border-radius: 25px;
 }
 
 /*Menu*/
@@ -361,6 +400,7 @@
     width: 100%;
     text-align: left;
     left: 0;
+    margin: 0;
     list-style-type: none;
   }
   .menu2 {
@@ -368,6 +408,7 @@
     width: 100%;
     text-align: left;
     left: 0;
+    margin: 0;
     list-style-type: none;
   }
   .menu3 {
@@ -375,6 +416,7 @@
     width: 100%;
     text-align: left;
     left: 0;
+    margin: 0;
     list-style-type: none;
   }
   .menu4 {
@@ -382,6 +424,7 @@
     width: 100%;
     text-align: left;
     left: 0;
+    margin: 0;
     list-style-type: none;
   }
   .header {
@@ -414,6 +457,10 @@
   }
   .navlink:hover {
     right: 0;
+  }
+  .coffeeshop {
+    width: 100vw;
+    left: 0;
   }
 }
 /*Navegador-Portada*/
@@ -484,4 +531,9 @@
 
 .Justicia {
   text-align: center;
+}
+
+/*General*/
+body {
+  background-color: rgb(198, 243, 157);
 }/*# sourceMappingURL=style.css.map */

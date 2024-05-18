@@ -47,6 +47,7 @@
 }
 .paquete{
     width: 300px;
+    border-radius: 25px;
     background-color: rgb(21, 161, 68);
     margin: 10px;
     padding: 20px;
@@ -54,6 +55,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    transition: 0.4s;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 .paquete-boton{
     position: absolute;
@@ -62,4 +67,9 @@
 }
 .form-reserva{
     margin-bottom: 100px;
+}
+@media(max-width: 1000px){
+    .paquete{
+        pointer-events: none;
+    }
 }

@@ -2,17 +2,20 @@
 .menu{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: left;
+    justify-content: space-around;
 }
 .menu1{
     width: 50%;
     border: 1px;
     border-color: forestgreen;
     border-style: groove;
+    border-radius: 25px;
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 30px;
     background-color:rgb(21, 161, 68)
+    
     
 }
 .menu2{
@@ -20,9 +23,11 @@
     border: 1px;
     border-color: forestgreen;
     border-style: groove;
+    border-radius: 25px;
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 30px;
     background-color:rgb(21, 161, 68)
 }
 .menu3{
@@ -30,9 +35,11 @@
     border: 1px;
     border-color: forestgreen;
     border-style: groove;
+    border-radius: 25px;
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 30px;
     background-color:rgb(21, 161, 68)
 }
 .menu4{
@@ -40,13 +47,21 @@
     border: 1px;
     border-color: forestgreen;
     border-style: groove;
+    border-radius: 25px;
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 30px;
     background-color:rgb(21, 161, 68)
 }
 .icono-menu{
     display: none;
+}
+.coffeeshop{
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    border-radius: 25px;
 }
 /*Menu*/
 @media (max-width: 768px){
@@ -57,24 +72,28 @@
         width: 100%;
         text-align: left;
         left: 0;
+        margin: 0;
         list-style-type: none;
     }
     .menu2{flex-direction: column;
         width: 100%;
         text-align: left;
         left: 0;
+        margin: 0;
         list-style-type: none;
     }
     .menu3{flex-direction: column;
         width: 100%;
         text-align: left;
         left: 0;
+        margin: 0;
         list-style-type: none;
     }
     .menu4{flex-direction: column;
         width: 100%;
         text-align: left;
         left: 0;
+        margin: 0;
         list-style-type: none;
     }
     .header{
@@ -108,6 +127,10 @@
     
     .navlink:hover{
         right: 0;
+    }
+    .coffeeshop{
+        width: 100vw;
+        left: 0;
     }
     
 }
